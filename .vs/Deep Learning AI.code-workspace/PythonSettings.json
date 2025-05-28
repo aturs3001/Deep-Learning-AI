@@ -1,0 +1,5 @@
+{
+  "SuppressEnvironmentCreationPrompt": true,
+  "TestFramework": "Pytest",
+  "Interpreter": "Workspace|Workspace|Deep Learning Env"
+}
