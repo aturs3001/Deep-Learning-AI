@@ -1,6 +1,17 @@
-"""
-Neural network layers implementation.
-"""
+# ============================================================
+# layers.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# layers.py for the Deep Learning Framework project
+# This module defines various layer classes for building neural networks,
+# including dense layers, activation layers, dropout layers, and batch normalization layers.
+# ============================================================
+
 
 import numpy as np
 from typing import Optional, Tuple

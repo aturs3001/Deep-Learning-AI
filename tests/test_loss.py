@@ -1,6 +1,25 @@
-"""
-Tests for loss functions.
-"""
+# ============================================================
+# test_loss.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# Tests for loss functions in the deep learning framework.
+# This module contains unit tests for various loss functions including Mean Squared Error,
+# Mean Absolute Error, Binary Cross-entropy, Categorical Cross-entropy,
+# Sparse Categorical Cross-entropy, Huber, Log-Cosh, Hinge, Squared Hinge, and KL Divergence.
+# ============================================================
+# dependencies:
+# pytest, numpy
+# ============================================================
+# usage:
+# Run the tests using pytest:
+# pytest tests/test_loss.py
+# ============================================================
+
 
 import pytest
 import numpy as np

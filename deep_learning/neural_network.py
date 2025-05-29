@@ -1,6 +1,9 @@
-"""
-Main Neural Network class that combines all components.
-"""
+# author: Aric Hurkman
+# email: arichurkman@gmail.com
+# date: 2025-06-27
+# neural_network.py for the Deep Learning Framework project
+# Main Neural Network class that combines all components.
+
 
 import numpy as np
 import matplotlib.pyplot as plt

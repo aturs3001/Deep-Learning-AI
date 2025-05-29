@@ -1,6 +1,30 @@
-"""
-Tests for the main Neural Network class.
-"""
+# ============================================================
+# test_neural_network.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# This module provides implementations of various optimization algorithms
+# for training neural networks. It includes popular optimizers such as
+# Stochastic Gradient Descent (SGD) and Adam.
+# Test cases for the Neural Network class in the deep learning framework.
+# This module tests the functionality of the NeuralNetwork class,
+# including layer addition, forward pass, training, evaluation, and saving/loading the model.
+# It uses pytest for testing and numpy for numerical operations.
+# ============================================================
+# Dependencies:
+# - pytest: For running the tests.
+# - numpy: For numerical operations and array manipulations.
+# - sys, os, tempfile: For file handling and path management.
+# ============================================================
+# Usage:
+# Run the tests using pytest:
+# pytest tests/test_neural_network.py
+# ============================================================
+
 
 import pytest
 import numpy as np

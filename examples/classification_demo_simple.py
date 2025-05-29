@@ -1,7 +1,33 @@
-"""
-Simplified Classification Demo using the Deep Learning Framework.
-"""
-
+# ============================================================
+# classification_demo_simple.py
+# Author: Aric Hurkman
+# Date: 2023-10-01
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# This script demonstrates simple classification tasks using a
+# custom deep learning framework. It includes:
+#   - Binary classification on synthetic data
+#   - Non-linear (circular) binary classification
+#   - Multi-class classification
+#
+# Each demo:
+#   - Generates synthetic data
+#   - Preprocesses and splits the data
+#   - Builds and trains a neural network model
+#   - Evaluates and visualizes results
+#
+# Requirements:
+#   - numpy
+#   - matplotlib
+#   - scikit-learn
+#   - deep_learning (custom framework in parent directory)
+#
+# Usage:
+#   Run this script directly to execute all demos.
+# ============================================================
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_classification, make_circles

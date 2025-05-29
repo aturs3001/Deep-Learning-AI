@@ -1,11 +1,18 @@
-"""
-Optimization algorithms for neural network training.
-"""
-
+# ============================================================
+# optimizers.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# This module defines various optimization algorithms for training neural networks.
+# optimizers.py for the Deep Learning Framework project
+# This module provides implementations of popular optimizers such as SGD, Adam, AdaGrad, RMSprop, and AdamW.
+# ============================================================
 import numpy as np
 from abc import ABC, abstractmethod
-from typing import Dict, Any, List
-
 
 class Optimizer(ABC):
     """Abstract base class for optimizers."""

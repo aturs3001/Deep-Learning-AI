@@ -1,7 +1,36 @@
-"""
-Setup script for the Deep Learning Framework.
-"""
-
+# ============================================================
+# setup.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# This module provides various optimization algorithms for training neural networks.
+# It includes implementations of popular optimizers such as SGD, Adam, AdaGrad, RMSprop, and AdamW.
+# These optimizers are designed to improve the convergence speed and performance of neural networks.
+#     'leaky_relu', 'leaky_relu_prime', 'elu', 'elu_prime', 'swish', 'swish_prime',
+#     'softmax', 'softmax_prime', 'linear', 'linear_prime',
+#
+#     # Activation layer classes
+#     'Sigmoid', 'Tanh', 'ReLU', 'LeakyReLU', 'ELU', 'Swish', 'Softmax', 'Linear',
+#
+#     # Optimizers
+#     'Optimizer', 'SGD', 'Adam', 'AdaGrad', 'RMSprop', 'AdamW',
+#     'OPTIMIZERS',
+#
+#     # Loss functions
+#     'Loss', 'MeanSquaredError', 'MeanAbsoluteError',
+#     'BinaryCrossentropy', 'CategoricalCrossentropy', 'SparseCategoricalCrossentropy',
+#     'Huber', 'LogCosh', 'Hinge', 'SquaredHinge', 'KLDivergence',
+#     'mse', 'mae', 'binary_crossentropy', 'categorical_crossentropy',
+#     'LOSS_FUNCTIONS'
+# ]
+# This module is part of a deep learning framework that provides a comprehensive set of tools
+# for building and training neural networks. It is designed to be modular and extensible,
+# allowing users to easily integrate new optimizers or modify existing ones.
+# ============================================================
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:

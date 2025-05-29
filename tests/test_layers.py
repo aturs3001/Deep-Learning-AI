@@ -1,6 +1,23 @@
-"""
-Tests for neural network layers.
-"""
+# ============================================================
+# test_layers.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# Tests for neural network layers.
+# This module contains unit tests for the Dense, Dropout, and BatchNormalization layers.
+# Tests are implemented using pytest and numpy for numerical operations.
+# ============================================================
+# dependencies:
+# pytest, numpy
+# ============================================================
+# usage:
+# Run the tests using pytest:
+# pytest tests/test_layers.py
+# ============================================================
 
 import pytest
 import numpy as np

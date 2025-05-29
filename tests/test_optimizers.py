@@ -1,6 +1,25 @@
-"""
-Tests for optimization algorithms.
-"""
+# ============================================================
+# test_optimizers.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# This module contains unit tests for the optimizers in the Deep Learning Framework.
+# The tests cover various optimizers including SGD, Adam, AdaGrad, RMSprop, and AdamW.
+# ============================================================
+# Dependencies:
+# - pytest
+# - numpy
+# - sys
+# - os
+# ============================================================
+# Usage:
+# Run the tests using pytest:
+# pytest tests/test_optimizers.py
+# ============================================================
 
 import pytest
 import numpy as np

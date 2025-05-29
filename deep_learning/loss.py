@@ -1,7 +1,15 @@
-"""
-Loss functions and their derivatives for neural network training.
-"""
-
+# ============================================================
+# loss.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# loss.py for the Deep Learning Framework project
+# This module defines various loss functions and their gradients,
+# which are used to evaluate the performance of models during training.
 import numpy as np
 from abc import ABC, abstractmethod
 from typing import Tuple

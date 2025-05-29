@@ -1,6 +1,6 @@
 # Deep Learning Framework
 
-A comprehensive deep learning framework built from scratch in Python, featuring neural networks, multiple activation functions, optimizers, and loss functions.
+A comprehensive deep learning framework built from scratch in Python, featuring neural networks, multiple activation functions, optimizers, and loss functions. 
 
 ## Features
 

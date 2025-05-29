@@ -1,9 +1,25 @@
-"""
-Classification demo using the Deep Learning Framework.
-
-This example demonstrates binary and multi-class classification
-using synthetic datasets.
-"""
+# ============================================================
+# classification_demo.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# Classification demo using the Deep Learning Framework.
+# This example demonstrates binary and multi-class classification
+# using synthetic datasets.
+# It includes:
+# - Binary classification with a simple dataset
+# - Multi-class classification with a more complex dataset
+# - Non-linear classification with circular data
+# It visualizes the training history and decision boundaries.
+# Requirements:
+# - numpy
+# - matplotlib
+# - scikit-learn
+# - deep_learning (custom framework)
 
 import numpy as np
 import matplotlib.pyplot as plt

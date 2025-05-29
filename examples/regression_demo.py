@@ -1,9 +1,17 @@
-"""
-Regression demo using the Deep Learning Framework.
-
-This example demonstrates linear and non-linear regression
-using synthetic datasets.
-"""
+# ============================================================
+# regression_demo.py
+# Author: Aric Hurkman
+# Date: 2025-05-27
+# Copyright (c) 2023 Aric Hurkman
+# License: All rights reserved.
+# Disclaimer: This code is for Portfolio and Educational purposes only.
+# ============================================================
+# Description:
+# Regression demo using the Deep Learning Framework.
+# This example demonstrates linear and non-linear regression
+# using synthetic datasets.
+# ============================================================
+# Import necessary libraries and modules
 
 import numpy as np
 import matplotlib.pyplot as plt
