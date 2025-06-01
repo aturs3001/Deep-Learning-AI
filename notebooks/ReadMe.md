@@ -196,7 +196,3 @@ The notebooks are designed to be:
 - ✅ **Practical** - Real examples and use cases
 
 **Enjoy exploring your deep learning framework!** 🧠✨
-
----
-
-*Need help? Check the README.md or framework documentation for more details.*
