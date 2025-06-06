@@ -7,7 +7,7 @@ A comprehensive deep learning framework built from scratch in Python, featuring 
 ### Core Components
 - **Neural Network Architecture**: Flexible network construction with easy layer addition
 - **Layer Types**: Dense, Dropout, Batch Normalization
-- **Activation Functions**: Sigmoid, Tanh, ReLU, Leaky ReLU, ELU, Swish, Softmax, Linear
+- **Activation Functions**: Sigmoid, Tanh, ReLU
 - **Optimizers**: SGD, Adam, AdaGrad, RMSprop, AdamW
 - **Loss Functions**: MSE, MAE, Binary/Categorical Cross-entropy, Huber, Hinge, and more
 
